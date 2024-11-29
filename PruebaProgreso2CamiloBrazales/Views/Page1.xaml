@@ -7,7 +7,7 @@
         <Label Text="Recarga telefonica" FontSize="16" VerticalOptions="Center" HorizontalOptions="Center"/>
         <Label HeightRequest="30"/>
         <Entry x:Name="cbrazales_textinput1"
-         Placeholder="Ingrese su numero de telefono"
+         Placeholder="Ingrese su numero de telefono" 
          Keyboard="Numeric"
          MaxLength="10"
          VerticalOptions="Center" HorizontalOptions="Center" 
@@ -26,3 +26,4 @@
             Text="Recarga" Clicked="Recarga"  VerticalOptions="Center" HorizontalOptions="Center"/>
     </StackLayout>
 </ContentPage>
+   
