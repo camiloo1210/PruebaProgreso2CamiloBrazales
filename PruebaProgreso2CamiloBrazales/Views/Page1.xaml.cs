@@ -6,4 +6,8 @@ public partial class Page1 : ContentPage
 	{
 		InitializeComponent();
 	}
+    private void Recarga(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Page2());
+    }
 }

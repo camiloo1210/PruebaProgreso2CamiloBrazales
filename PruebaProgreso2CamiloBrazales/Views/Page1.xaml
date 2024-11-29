@@ -2,11 +2,27 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PruebaProgreso2CamiloBrazales.Views.Page1"
-             Title="Page1">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Recarga Movil">
+    <StackLayout  >
+        <Label Text="Recarga telefonica" FontSize="16" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Label HeightRequest="30"/>
+        <Entry x:Name="cbrazales_textinput1"
+         Placeholder="Ingrese su numero de telefono"
+         Keyboard="Numeric"
+         MaxLength="10"
+         VerticalOptions="Center" HorizontalOptions="Center" 
+        />
+        <Label HeightRequest="30"/>
+        <Label Text="Informacion Adicional" FontSize="16" VerticalOptions="Center" HorizontalOptions="Center"/>
+        <Label HeightRequest="30"/>
+        <Entry x:Name="cbrazales_textinput2"
+         Placeholder="Ingrese el nombre de quien realiza la recarga"
+         Keyboard="Default"
+         MaxLength="30"
+         VerticalOptions="Center" HorizontalOptions="Center" 
+         />
+        <Label HeightRequest="30"/>
+        <Button 
+            Text="Recarga" Clicked="Recarga"  VerticalOptions="Center" HorizontalOptions="Center"/>
+    </StackLayout>
 </ContentPage>
