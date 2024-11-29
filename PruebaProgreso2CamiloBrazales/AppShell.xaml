@@ -3,13 +3,20 @@
     x:Class="PruebaProgreso2CamiloBrazales.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:PruebaProgreso2CamiloBrazales"
+    xmlns:local="clr-namespace:PruebaProgreso2CamiloBrazales.Views"
     Shell.FlyoutBehavior="Disabled"
     Title="PruebaProgreso2CamiloBrazales">
-
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <Tab Title="Page1" Icon="luffyflag.png">
+            <ShellContent  Title="Home"
+                ContentTemplate="{DataTemplate local:Page1}"
+                Route="Page1" />
+        </Tab>
+        <Tab Title="Page2" Icon="lawflag.png">
+            <ShellContent  Title="Home"
+                ContentTemplate="{DataTemplate local:Page2}"
+                Route="Page2" />
+        </Tab>
+    </TabBar>
 
 </Shell>
