@@ -14,14 +14,14 @@
         </Grid.ColumnDefinitions>
 
 
-        <BoxView Color="Black" Grid.Row="0" Grid.Column="0"/>
-
+        <BoxView Color="Green" Grid.Row="0" Grid.Column="0" />
+        <Label Text="Camilo" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" FontSize="32"/>
         <BoxView Color="CornflowerBlue" Grid.Row="0" Grid.Column="1"/>
-
+        <Label Text="Andres" Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" FontSize="32"/>
         <BoxView Color="Yellow" Grid.Row="1" Grid.Column="0"/>
-        <VerticalStackLayout>
-                <BoxView Color="Pink"  Grid.Row="1" Grid.Column="1"/>
-            </VerticalStackLayout>
+        <Label Text="Brazales" Grid.Row="1" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" FontSize="32"/>
+        <BoxView Color="Pink"  Grid.Row="1" Grid.Column="1"/>
+        <Label Text="Barrero" Grid.Row="1" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" FontSize="32"/>
 
     </Grid>
 </ContentPage>
