@@ -5,11 +5,13 @@ public partial class Page1 : ContentPage
 	public Page1()
 	{
 		InitializeComponent();
-	}
+        BindingContext = this;
+
+    }
     private void Recarga(object sender, EventArgs e)
     {
         string path = FileSystem.AppDataDirectory;
-        string filename = "vivalaliga.txt";
+        string filename = "aiuda.txt";
         string pathfile = path + filename;
         // This text is added only once to the file.
         if (!File.Exists(pathfile))

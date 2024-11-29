@@ -23,7 +23,21 @@
          />
         <Label HeightRequest="30"/>
         <Button 
-            Text="Recarga" Clicked="Recarga"  VerticalOptions="Center" HorizontalOptions="Center"/>
+            Text="Recarga" Clicked="Recarga"  VerticalOptions="Center" HorizontalOptions="Center"
+         />
+        <Label 
+           Text="{Binding numeroTelefono}"
+           FontAttributes="Bold"
+           FontSize="18"
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+
+        <Label 
+         Text="{Binding nombreRecarga}"
+         FontAttributes="Bold"
+         FontSize="18"
+         HorizontalOptions="Center"
+         VerticalOptions="Center" />
     </StackLayout>
 </ContentPage>
    
